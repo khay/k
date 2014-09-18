@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Antic+Slab|Josefin+Slab:400,700|Source+Code+Pro|Open+Sans:400,700,300);
+
+body {
+	font-family: 'Antic Slab', 'Myanmar Census', serif;
+	font-size: 18px;
+	line-height: 1.7;
+	color: rgba(0,0,0,0.8);
+	letter-spacing: -0.02em;
+}
+
+::selection {
+	background: #F7FFC8;
+	color: #373737;
+}
+::-moz-selection {
+	background: #F7FFC8;
+	color: #373737;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.container {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Open Sans", 'MON3 Anonta 1', Yunghkio, Myanmar3, sans-serif;
+	letter-spacing: -0.02em;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.error {
+	margin-top: 12%;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-left h1{
+	background-color: #111;
+	color: #fff;
+	padding: 20px;
+	font-size: 40px;
+	margin-right: 40px;
+	font-family: 'Josefin Sans', sans-serif;
+}
