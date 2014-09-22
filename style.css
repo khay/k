@@ -280,15 +280,31 @@ ul.share li {
 	float: left;
 	display: inline-block;
 	list-style: none;
-	margin-right: 13px;
+	margin-right: 20px;
 }
 
 ul.share li i.fa {
-	font-size: 24px;
+	font-size: 20px;
+	color: #948E8E;
 }
 
 ul.share li a {
 	border: 0px;
+	position: relative;
+}
+
+.share-count {
+	background: #f56e6e;
+	color: #fff;
+	border-radius: 10px;
+	display: inline-block;
+	text-align: center;
+	font-size: 12px;
+	padding: 1px 3px;
+	line-height: 1;
+	position: absolute;
+	top: -10px;
+	left: 16px;
 }
 
 /* Single ImG */

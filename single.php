@@ -18,9 +18,24 @@
 			<?php the_content(); ?>
 		</section>
 		<ul class="share clearfix">
-			<li><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php the_permalink() ?>&<?php the_title(); ?>"><i class="fa fa-facebook-square"></i></a></li>
-			<li><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php the_permalink() ?>&text=<?php the_title(); ?>&via=khayusaki"><i class="fa fa-twitter"></i></a></li>
-			<li><a target="_blank" href="https://plus.google.com/share?url=<?php the_permalink() ?>"><i class="fa fa-google-plus-square"></i></a></li>
+			<li>
+				<a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php the_permalink() ?>&<?php the_title(); ?>">
+					<i class="fa fa-facebook-square"></i>
+					<span id="fb-count" class="share-count"></span>
+				</a>
+			</li>
+			<li>
+				<a target="_blank" href="https://twitter.com/intent/tweet?url=<?php the_permalink() ?>&text=<?php the_title(); ?>&via=khayusaki">
+					<i class="fa fa-twitter"></i>
+					<span id="tw-count" class="share-count"></span>
+				</a>
+			</li>
+			<li>
+				<a target="_blank" href="https://plus.google.com/share?url=<?php the_permalink() ?>">
+					<i class="fa fa-google-plus-square"></i>
+					<span id="gp-count" class="share-count"></span>
+				</a>
+			</li>
 		</ul>
 		<hr>
 	</article>
