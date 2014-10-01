@@ -75,7 +75,7 @@
 			$the_query = new WP_Query( $args );								
 			while ( $the_query->have_posts() ) : $the_query->the_post(); 
 		?>
-			<div class="half">		
+			<div class="">		
 				<h3>
 					<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
 				</h3>
