@@ -7,7 +7,7 @@
 		<h1><a href="<?php bloginfo('url'); ?>/about"><?php bloginfo( 'name' ); ?></a></h1>
 		<p>Loves foods, games and a bookworm</p>
 		<ul class="social">
-			<li><a target="_blank" href="https://facebook.com/pages/K/562735690484332"><i class="fa fa-facebook-square"></i></a></li>
+			<li><a target="_blank" href="https://facebook.com/khayusaki"><i class="fa fa-facebook-square"></i></a></li>
 			<li><a target="_blank" href="https://twitter.com/khayusaki"><i class="fa fa-twitter"></i></a></li>
 			<li><a target="_blank" href="https://github.com/khay"><i class="fa fa-github"></i></a></li>
 			<li><a target="_blank" href="https://instagram.com/khayusaki"><i class="fa fa-instagram"></i></a></li>
